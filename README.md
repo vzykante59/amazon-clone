@@ -65,4 +65,79 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+install extension by searching for
+
+1. es7 react/redux
+2. prettier
+   enter " command , " for open settings
+   search for format
+   select checkbox " save on format
+
+3)goto material UI url , https://material-ui.com/
+
+sudo npm install @material-ui/core --registry=https://registry.npmjs.org/
+
+4. search for icons and run below command
+   sudo npm install @material-ui/icons --registry=https://registry.npmjs.org/
+
+5. search in search box for "search"
+   click on search icon and copy the command for importing searcicon
+   for ex: import SearchIcon from '@material-ui/icons/Search'
+
+https://material-ui.com/components/material-icons/
+
+5. to get autocode when u type, enable emmet for react
+   a) goto settings and add key/value pair as javascript:javascriptreact
+
+star image : http://www.i2symbol.com/symbols/stars
+
+filling stars: https://css-tricks.com/five-methods-for-five-star-ratings/
+
+6. npm install react-router-dom
+   npm i react-currency-format
+
+extensions:
+git lens
+ES7 react redux
+auto close tag
+
+for deploying:
+ML-C02YVCWULVCG:amazon-clone vkante\$
+1)firebase login
+2)firebase init 1) Hosting
+a) use an existing Project
+select ex: amazon-challenge
+what do you want to use as your public directory? build
+configure as a single-page app (rewrite all urls to /index.html)? (y/N) y //(default is No)
+3)npm run build (builds the prodcution level code)
+4)firebase deploy
+
+STRIPE:
+npm install @stripe/stripe-js
+npm install @stripe/react-stripe-js
+
+create account in stripe.com and copy the publishable key from "API KEYS' menu on left side
+
+AXIOS:
+npm install axios
+
+BACKEND:
+
+1)cloud functions:
+firebase init
+
+select functions option (with space bar and enter)
+? What language would you like to use to write Cloud Functions? JavaScript
+? Do you want to use ESLint to catch probable bugs and enforce style? Yes
+
+2.  a)install express
+    b)npm install cors
+    c)npm install stripe
+
+3) for testing API in firebase , start emulators
+   > firebase emulators:start
+   > //follow console logs
+   > express running on below url
+   > http://localhost:5001/challenge-67650/us-central1/api
